@@ -1,9 +1,9 @@
 # this is simply a read me file
-
+```bash
 go install -v github.com/PentestPad/subzy@latest
-
+```
 Only required flag for run subcommand(r short version) is either --target or --targets
-#good thing
+# good thing
 --target (string) - Set single or multiple (comma separated) target subdomain/s
 --targets (string) - File name/path to list of subdomains
 --concurrency (integer) - Number of concurrent checks (default 10)
